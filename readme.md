@@ -61,6 +61,4 @@ Or just with rake spec
 
 ## More Information
 * Check out our [Website](http://refinerycms.com/)
-* Documentation is available in the [guides](http://refinerycms.com/guides)
-* Questions can be asked on our [Google Group](http://group.refinerycms.org)
-* Questions can also be asked in our IRC room, [#refinerycms on freenode](irc://irc.freenode.net/refinerycms)
+* [Help and documentation](https://github.com/refinery/refinerycms#help-and-documentation)
