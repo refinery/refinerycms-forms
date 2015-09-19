@@ -1,9 +1,6 @@
-require 'zilch/authorisation/users_manager'
-
 module Refinery
   module <%= namespacing %>
     class Setting
-
       class << self
         def confirmation_message
           Refinery::Setting.find_or_set(:<%= singular_name %>_confirmation_message,
@@ -18,7 +15,7 @@ module Refinery
 
         def notification_recipients
           Refinery::Setting.find_or_set(:<%= singular_name %>_notification_recipients,
-                                        (users_manager.primary_user.try(:email)).to_s)
+                                        "you@example.com")
         end
 
         def notification_subject
@@ -37,7 +34,6 @@ module Refinery
         def notification_recipients=(value)
           Refinery::Setting.set(:<%= singular_name %>_notification_recipients, value)
         end
-
       end
     end
   end
