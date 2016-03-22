@@ -21,7 +21,7 @@ Now run `bundle install`.
 ##  Usage
 
 ### Example:
-	$ rails generate refinery:form job_inquiry name:string message:text job_type:radio brochure:checkbox qualification:select
+	$ rails generate refinery:form job_inquiry name:string message:text job_type:radio brochure:checkbox qualification:select --authors 'John Jones'
 
 ### Description
 
