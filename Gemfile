@@ -7,6 +7,10 @@ end
 
 gem 'generator_spec', '~> 0.9.3'
 
+group :development do
+  gem 'listen'
+end
+
 # Database Configuration
 unless ENV['TRAVIS']
   gem 'activerecord-jdbcsqlite3-adapter', :platform => :jruby
