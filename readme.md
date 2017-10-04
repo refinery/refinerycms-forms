@@ -13,7 +13,7 @@ Refinery CMS version 3.0.0 or above.
 Open up your ``Gemfile`` and add at the bottom this line:
 
 ```ruby
-gem 'refinerycms-forms', github: 'refinery/refinerycms-forms', branch: 'master', group: :development
+gem 'refinerycms-forms', git: 'https://github.com/refinery/refinerycms-forms', branch: 'master', group: :development
 ```
 
 Now run `bundle install`.
