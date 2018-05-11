@@ -1,4 +1,4 @@
-class Create<%= class_name.pluralize %> < ActiveRecord::Migration
+class Create<%= class_name.pluralize %> < ActiveRecord::Migration[5.1]
 
   def up
     create_table :refinery_<%= table_name %> do |t|
