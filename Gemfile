@@ -1,8 +1,13 @@
 source "https://rubygems.org"
 
+gemspec
+
 git "https://github.com/refinery/refinerycms", branch: "master" do
-  gem "refinerycms-core"
-  gem "refinerycms-testing"
+  gem "refinerycms"
+
+  group :test do
+    gem "refinerycms-testing"
+  end
 end
 
 gem 'generator_spec', '~> 0.9.3'
