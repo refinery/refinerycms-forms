@@ -1,3 +1,4 @@
+dist: trusty
 language: ruby
 sudo: false
 cache: bundler
@@ -24,6 +25,6 @@ env:
   - DB=postgresql
   - DB=mysql
 rvm:
-  - 2.4.2
-  - 2.3.5
-  - 2.2.8
+  - 2.6
+  - 2.5
+  - 2.4
